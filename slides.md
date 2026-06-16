@@ -2,13 +2,12 @@
 theme: default
 title: AutoScout
 transition: fade
-css: style.css
 ---
 
 ---
 layout: cover
 
-background: background.png
+background: ./public/background.png
 class: rtl cover-slide
 transition: slide-left
 ---
