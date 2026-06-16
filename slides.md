@@ -231,8 +231,8 @@ transition: slide-left
 
 ### זיהוי רובוטים
 
-mAP@50 = 0.97
-Precision = 0.93
+mAP@50 = 0.97<br/>
+Precision = 0.93<br/>
 Recall = 0.94
 
 </div>
@@ -241,8 +241,8 @@ Recall = 0.94
 
 ### זיהוי ספרות
 
-mAP@50 = 0.85
-Precision = 0.75
+mAP@50 = 0.85<br/>
+Precision = 0.75<br/>
 Recall = 0.78
 
 </div>
@@ -251,8 +251,8 @@ Recall = 0.78
 
 ### שיוך end-to-end
 
-75% שיוך נכון
-273 מופעי רובוט
+75% שיוך נכון<br/>
+273 מופעי רובוט<br/>
 3 מקצים מתחרויות שונות
 
 </div>
