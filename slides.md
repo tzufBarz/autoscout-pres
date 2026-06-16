@@ -188,9 +188,11 @@ transition: slide-left
 
 <div>
 
-### חלוקה
+### שני מודלים
 
-<span class="en">Train / Validation / Test</span>&rlm;
+<span class="en">YOLO</span>&rlm; לזיהוי רובוטים<br/>
+<span class="en">YOLO</span>&rlm; לזיהוי ספרות
+
 </div>
 
 <div>
