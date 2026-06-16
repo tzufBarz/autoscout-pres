@@ -2,6 +2,7 @@
 theme: default
 title: AutoScout
 transition: fade
+routerMode: hash
 ---
 
 ---
