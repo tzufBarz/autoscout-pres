@@ -1,0 +1,172 @@
+* {
+  text-shadow: none !important;
+}
+
+:root {
+  --bg: #111111;
+  --text: #e7e4df;
+  --muted: #9d9890;
+  --panel: #1a1a1a;
+  --panel-soft: rgba(255, 255, 255, 0.032);
+  --shadow-line: rgba(255, 255, 255, 0.04);
+}
+
+.slidev-layout {
+  direction: rtl;
+  text-align: right;
+  background: var(--bg);
+  color: var(--text);
+  font-family: "Noto Sans Hebrew", "Arial", sans-serif;
+  padding: 72px 88px;
+}
+
+.slidev-layout h1 {
+  font-size: 2.15rem;
+  font-weight: 560;
+  letter-spacing: -0.02em;
+  margin: 0 0 2.2rem 0;
+  color: var(--text);
+}
+
+.slidev-layout h3 {
+  font-size: 1rem;
+  font-weight: 520;
+  color: var(--muted);
+  margin: 0 0 0.7rem 0;
+}
+
+.slidev-layout p,
+.slidev-layout div {
+  font-size: 1.08rem;
+  line-height: 1.55;
+}
+
+.en,
+bdi {
+  direction: ltr;
+  unicode-bidi: isolate;
+}
+
+/* Cover and transition slides */
+
+.cover-slide,
+.demo-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cover-block,
+.center-block {
+  text-align: center;
+}
+
+.cover-block h1 {
+  font-size: 3rem;
+  font-weight: 580;
+  margin-bottom: 0.75rem;
+}
+
+.subtitle {
+  font-size: 1.18rem;
+  color: var(--muted);
+}
+
+.center-block h1 {
+  font-size: 2.65rem;
+  font-weight: 560;
+  margin-bottom: 0.75rem;
+}
+
+/* Simple text slides */
+
+.simple-list {
+  display: grid;
+  gap: 0.9rem;
+  margin-top: 2rem;
+  max-width: 800px;
+}
+
+.simple-list > div {
+  color: var(--text);
+  font-size: 1.2rem;
+}
+
+/* Column layouts */
+
+.two-columns,
+.three-columns {
+  display: grid;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.two-columns {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.three-columns {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.two-columns > div,
+.three-columns > div {
+  background: var(--panel);
+  border: none;
+  border-radius: 9px;
+  padding: 1.05rem 1.15rem;
+  min-height: 135px;
+  box-shadow: inset 0 1px 0 var(--shadow-line);
+}
+
+.compact > div {
+  min-height: 110px;
+}
+
+.final > div {
+  min-height: 120px;
+}
+
+/* Diagram slide */
+
+.pipeline-slide {
+  padding-top: 56px;
+  display: flex;
+  flex-direction: column;
+}
+
+.pipeline-slide h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pipeline-box {
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 1.4rem 1.6rem;
+  background: rgba(255, 255, 255, 0.025);
+  border-radius: 14px;
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.035);
+  overflow: visible;
+}
+
+.pipeline-box .mermaid {
+  direction: ltr;
+  text-align: center;
+  transform: none;
+  margin: 0 auto;
+}
+
+/* Code blocks */
+
+pre,
+code {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Images */
+
+img {
+  border-radius: 8px;
+}
