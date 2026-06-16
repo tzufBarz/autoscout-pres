@@ -2,12 +2,13 @@
 theme: default
 title: AutoScout
 transition: fade
+routerMode: hash
 ---
 
 ---
 layout: cover
 
-background: ./public/background.png
+background: ./background.png
 class: rtl cover-slide
 transition: slide-left
 ---
