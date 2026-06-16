@@ -41,6 +41,11 @@
   line-height: 1.55;
 }
 
+.slidev-layout.cover {
+  background-blend-mode: multiply;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
 .en,
 bdi {
   direction: ltr;

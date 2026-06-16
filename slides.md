@@ -144,7 +144,10 @@ transition: slide-left
 <div class="two-columns">
 
 <div>
-<h3>רובוטים ובריתות</h3>
+
+### רובוטים ובריתות
+
+1000+ תמונות קיימות.
 
 זיהוי רובוטים,
 
@@ -154,13 +157,16 @@ transition: slide-left
 </div>
 
 <div>
-<h3>ספרות</h3>
+
+### ספרות
+
+כ-500 תמונות מתויגות ידנית.
 
 זיהוי ספרות בודדות,
 
 חיתוכי באמפרים,
 
-הכללה לקבוצות חדשות.
+הכללה לקבוצות שלא הופיעו באימון.
 </div>
 
 </div>
@@ -181,22 +187,25 @@ transition: slide-left
 <div class="three-columns compact">
 
 <div>
-<h3>חלוקה</h3>
 
-<span class="en">Train</span>&rlm; / <span class="en">Validation</span>&rlm; / <span class="en">Test</span>&rlm;
+### חלוקה
+
+<span class="en">Train / Validation / Test</span>&rlm;
 </div>
 
 <div>
-<h3>מדדים</h3>
 
-<span class="en">Precision</span>&rlm; / <span class="en">Recall</span>&rlm; / <span class="en">mAP</span>&rlm;
+### מדדים
+
+<span class="en">Precision / Recall / mAP</span>&rlm;
 </div>
 
 <div>
-<h3>בדיקה מלאה</h3>
 
-<span class="en">End-to-end</span>&rlm;
-מסלולים משויכים
+### בדיקה מלאה
+
+<span class="en">End-to-end</span>&rlm;<br/>
+תיקוף ידני של שיוך לקבוצות
 </div>
 
 </div>
@@ -214,13 +223,37 @@ transition: slide-left
 
 # התוצאות
 
-<div class="simple-list">
+<div class="three-columns compact">
 
-<div>מודל הרובוטים יציב יותר.</div>
+<div>
 
-<div>מודל הספרות רגיש יותר.</div>
+### זיהוי רובוטים
 
-<div>המדד החשוב הוא הצלחת השיוך לאורך זמן.</div>
+mAP@50 = 0.97
+Precision = 0.93
+Recall = 0.94
+
+</div>
+
+<div>
+
+### זיהוי ספרות
+
+mAP@50 = 0.85
+Precision = 0.75
+Recall = 0.78
+
+</div>
+
+<div>
+
+### שיוך end-to-end
+
+75% שיוך נכון
+273 מופעי רובוט
+3 מקצים מתחרויות שונות
+
+</div>
 
 </div>
 
@@ -240,19 +273,22 @@ class: rtl
 <div class="three-columns compact">
 
 <div>
-<h3>הסתרות</h3>
+
+### הסתרות
 
 רובוטים מסתירים אחד את השני.
 </div>
 
 <div>
-<h3>טשטוש</h3>
+
+### טשטוש
 
 תנועה מהירה ואיכות צילום.
 </div>
 
 <div>
-<h3>איבוד מעקב</h3>
+
+### איבוד מעקב
 
 קשה לזהות מחדש אחרי איבוד עקבה.
 </div>
@@ -297,19 +333,22 @@ class: rtl
 <div class="three-columns compact final">
 
 <div>
-<h3><span class="en">Computer Vision</span>&rlm;</h3>
+
+### <span class="en">Computer Vision</span>&rlm;
 
 זיהוי רובוטים וספרות.
 </div>
 
 <div>
-<h3><span class="en">Tracking</span>&rlm;</h3>
+
+### <span class="en">Tracking</span>&rlm;
 
 מעקב לאורך זמן.
 </div>
 
 <div>
-<h3><span class="en">System Design</span>&rlm;</h3>
+
+### <span class="en">System Design</span>&rlm;
 
 מערכת מקצה לקצה.
 </div>
